@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+}
+input {
+    border: none;
+    outline: none;
+  
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+li{
+list-style: none;
+}
